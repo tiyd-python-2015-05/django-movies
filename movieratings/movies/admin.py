@@ -11,7 +11,7 @@ class RatingInline(admin.TabularInline):
 
 class MovieAdmin(admin.ModelAdmin):
     fields = ["title"]
-    list_display = ["title", "average_rating"]
+    list_display = ["title"]
 
 admin.site.register(Rater)
 admin.site.register(Movie, MovieAdmin)
