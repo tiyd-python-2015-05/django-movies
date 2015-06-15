@@ -33,7 +33,8 @@ After completing this assignment, you should be able to:
 * Understand registration and login
 * Make use of Django's built in authentication forms and helper
 * Extend user objects via OneToOneFields
-* Use a CSS framework
+
+## Night 4
 
 ## Details
 
@@ -131,4 +132,25 @@ Add a personal page for each user that only they can see. It should have all
 their ratings, allow them to edit or delete those ratings, and also show
 them the top 20 movies they have not rated.
 
-Add Bootstrap (using [django-bootstrap](https://django-bootstrap3.readthedocs.org/en/latest/)) to your application and change your templates to use it.
+## Night 4
+
+Tonight focuses on using the Django ORM better. You have a list of changes
+to make:
+
+* Ensure users can rate movies.
+* Validate that new ratings are between 1 and 5.
+* Make sure new ratings are timestamped correctly.
+* Allow for a short review with the rating.
+* Add a personal page for each user that only they can see. It should have all
+their ratings and allow them to edit or delete those ratings.
+* Add a public page for each user that has all their ratings and their
+user info.
+* Movies should have genres, and each genre should have a page where you can
+see the top rated movies for that genre.
+* Have a page both for showing movies with the most ratings and movies with the highest ratings.
+* Convert your application to use PostgreSQL.
+
+### Hard Mode
+
+Start to exercise your own creativity here. Add features based off what you're
+interested in.
