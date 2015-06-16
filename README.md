@@ -36,6 +36,20 @@ After completing this assignment, you should be able to:
 
 ## Night 4
 
+* Expand upon current knowledge to build new Django applications and features
+* Determine which model field types to use to represent data
+* Understand the difference between 1:1, 1:n, and n:n relationships
+* Distinguish when to use each relationship type in modeling data
+* Translate English descriptions of data queries into Django ORM queries
+* Use PostgreSQL to store Django data
+* Use django-extensions to make development easier
+
+## Night 5
+
+* Build structured documents using HTML
+* Make use of Bootstrap and hand-written CSS to style your application
+* Organize templates for reuse
+
 ## Details
 
 ### Deliverables
@@ -154,3 +168,12 @@ see the top rated movies for that genre.
 
 Start to exercise your own creativity here. Add features based off what you're
 interested in.
+
+## Night 5: Catch up
+
+We have a few more features we are going to add to this application. Tonight
+is a good time to stop and make sure you have all the previous normal modes
+done.
+
+Focus on polish tonight. Add in Bootstrap and customize the CSS. Organize
+your URLs.
