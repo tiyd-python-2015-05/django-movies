@@ -50,6 +50,14 @@ After completing this assignment, you should be able to:
 * Make use of Bootstrap and hand-written CSS to style your application
 * Organize templates for reuse
 
+## Night 6
+
+* Show the attributes of the request object in Views
+* Create custom HTTP responses
+* Use exceptions to handle common web responses
+* Explain the difference between function-based views and class-based views
+* Select generic views from Django to speed development
+
 ## Details
 
 ### Deliverables
@@ -177,3 +185,13 @@ done.
 
 Focus on polish tonight. Add in Bootstrap and customize the CSS. Organize
 your URLs.
+
+## Night 6
+
+Take your page that shows the top 20 (or however many) movies by average rating. Turn this into a paginated list using the generic class-based view (GCBV) `ListView`.
+
+Convert the rest of your views to use GCBV's.
+
+### Hard Mode
+
+Add charts to your application using Matplotlib. An ideal chart -- which would require new models and caching data -- would be the average rating of a movie over time.
